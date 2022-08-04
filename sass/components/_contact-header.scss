@@ -1,0 +1,73 @@
+.contact {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+        &__mail,
+        &__tel {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            color: var(--primary-text-color);
+    
+            transition: color var(--transform-1);
+        }
+    
+        &__icon {
+            vertical-align: middle;
+            fill: currentColor;
+            margin-right: 10px;
+    
+            transition: color var(--transform-1);
+        }
+    
+    
+        &__mail:hover,
+        &__tel:hover {
+            color: #2196F3;
+    
+        }
+    
+        &__mail:hover .icon-mail,
+        &__tel:hover .contact__icon {
+            fill: var(--blue-background);
+    
+        }
+    
+        &__mail:focus,
+        &__tel:focus {
+            color: #2196F3;
+    
+        }
+    
+        &__mail:focus .icon-mail,
+        &__tel:focus .contact__icon {
+            fill: var(--blue-background);
+    
+        }
+}
+
+.header__container,
+.navigation,
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  */
+.adressli {
+    position: relative;
+}
+
+
+
+.list-adress {
+    align-items: center;
+}

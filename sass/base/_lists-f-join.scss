@@ -1,0 +1,28 @@
+.join {
+    tab-size: 4;
+    line-height: 1.15;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+
+
+.second-footer-div {
+    margin-left: 70px;
+    margin-right: 93px;
+    
+    &__title {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--accent-color2);
+            margin-bottom: 20px;
+        }
+}
+
+.end {
+    display: flex;
+}
+

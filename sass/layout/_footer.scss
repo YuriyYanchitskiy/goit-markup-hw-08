@@ -1,0 +1,124 @@
+
+.footer {
+    max-height: 252px;
+    background: var(--background);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    display: inline-block;
+}
+
+.lists-d {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+        &__item:not(:last-child) {
+            margin-bottom: 9px;
+        }
+        &__address {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: var(--accent-color2);
+        
+            transition: color var(--transform-1);
+        }
+
+        &__address:hover,
+        &__address:focus,
+        &__mail:hover,
+        &__mail:focus,
+        &__tel:hover,
+        &__tel:focus {
+            color: var(--accent-color1);
+        
+        }
+        
+        &__mail,
+        &__tel {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.6);
+        
+            transition: color var(--transform-1);
+        }
+}
+
+.white {
+    color: var(--accent-color2);
+}
+
+.address {
+    font-style: normal
+}
+
+// Блок "Підпишись"
+.footer-form {
+    display: flex;
+    margin-right: 0;
+
+        &__fild {
+            display: flex;
+            margin-bottom: 0px;
+        }
+    
+        &__title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+            color: var(--accent-color2);
+            margin-bottom: 20px;
+    
+        }
+    
+        &__subscribe {
+            width: 358px;
+            height: 50px;
+            background-color: var(--background);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            margin-right: 12px;
+            padding-right: 5px;
+            padding-left: 16px;
+            color: var(--accent-color2);
+            transition: border var(--transform-1);
+        }
+    
+        &__subscribe:focus {
+            transition: border var(--transform-1);
+        }
+    
+        &__subscribe::placeholder {
+            width: 47px;
+            height: 20px;
+    
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            align-items: center;
+    
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+

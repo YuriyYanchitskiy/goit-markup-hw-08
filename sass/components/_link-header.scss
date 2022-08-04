@@ -1,0 +1,103 @@
+/*посилання*/
+.menu{
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    margin: 0;
+
+        &__studio,
+        &__portfolio,
+        &__contacts {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+            color: var(--title-text-color);
+            text-decoration: none;
+            display: inline-block;
+    
+            transition: color var(--transform-1);
+        }
+    
+        &__studio--current,
+        &__portfolio--current {
+            color: var(--accent-color1);
+    
+        }
+
+        &__studio:focus,
+        &__portfolio:focus,
+        &__contacts:focus,
+        &__studio:hover,
+        &__portfolio:hover,
+        &__contacts:hover {
+            color: var(--accent-color1);
+    
+        }
+
+        &__studio,
+        &__portfolio,
+        &__contacts{
+            display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            
+        }
+
+        /* Підкреслення під поточною сторінкою */
+        &__studio,
+        &__portfolio,
+        &__contacts {
+            position: relative;
+        }
+
+        &__studio--is-active,
+        &__portfolio--is-active,
+        &__contacts--is-active{
+        color: var(--blue-background);
+        }
+
+        &__studio--is-active::after,
+        &__portfolio--is-active::after,
+        &__contacts--is-active::after {
+            position: absolute;
+            content: "";
+            bottom: -1px;
+            left: 0;
+            border-radius: 2px;
+            width: 100%;
+            height: 4px;
+            background-color: var(--blue-background);
+        }
+}
+
+.blue,
+.contact__mail:focus,
+.contact__tel:focus{
+    color: var(--accent-color1);
+}
+
+
+.contact__mail,
+.contact__tel {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+
+
+
+.list li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list {
+    display: flex;
+    margin: 0px 0px 0px 93px;
+    padding: 0;
+}

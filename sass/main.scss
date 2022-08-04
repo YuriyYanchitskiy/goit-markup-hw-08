@@ -1,0 +1,31 @@
+// UTILS
+@import './utils/variables';
+@import './utils/general';
+@import './utils/placeholders';
+@import './utils/visually-hidden';
+
+
+// BASE
+@import './base/lists-a-benefits';
+@import './base/card-flex-box';
+@import './base/lists-b-doing';
+@import './base/ourteam';
+@import './base/customers';
+@import './base/lists-f-join';
+
+
+// COMPONENTS
+@import './components/buttons-hero';
+@import './components/link-header';
+@import './components/contact-header';
+@import './components/social-network-ourteam';
+@import './components/button-footer';
+@import './components/button-portfolio';
+
+
+
+// LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/footer';
+@import './layout/modal';

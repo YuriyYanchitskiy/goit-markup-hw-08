@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid cyan; */
+}
+
+
+.lists-b,
+.lists-c,
+.lists-d,
+.lists-e,
+.lists-f {
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    margin: 0;
+}
+
+.lists-b,
+.lists-c,
+.lists-e {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}

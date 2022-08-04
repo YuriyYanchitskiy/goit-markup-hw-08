@@ -1,0 +1,59 @@
+// кнопки соціальних мереж в "Наша команда"
+.instagram,
+.twitter,
+.facebook,
+.linkedin {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: fill, background-color var(--transform-1);
+
+        &:hover,
+        &:hover,
+        &:hover,
+        &:hover {
+            background-color: var(--blue-background);
+    
+        }
+    
+        &:focus,
+        &:focus,
+        &:focus,
+        &:focus {
+            background-color: var(--blue-background);
+    
+        }
+    
+        &:hover .svg-instagram,
+        &:hover .svg-twitter,
+        &:hover .svg-facebook,
+        &:hover .svg-linkedin {
+            fill: #FFFFFF;
+    
+        }
+    
+        &:focus .svg-instagram,
+        &:focus .svg-twitter,
+        &:focus .svg-facebook,
+        &:focus .svg-linkedin {
+            fill: #FFFFFF;
+    
+        }
+}
+
+.svg-instagram,
+.svg-twitter,
+.svg-facebook,
+.svg-linkedin {
+    fill: currentColor;
+    fill: #AFB1B8;
+}
+

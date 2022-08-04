@@ -1,0 +1,17 @@
+
+
+/* Сіра лінія в хедері */
+.header {
+    border-bottom: 1px solid #ECECEC
+}
+
+/* Логотип хедера */
+.logo-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
